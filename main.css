@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #drum-machine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #3D3936;
+  }
+  
+  #display{
+    width: 320px;
+    height: 72px;
+    background-color: #99A3FF;
+    margin-bottom: 20px;
+    font-size: 32px;
+    padding: 15px;
+    
+  }
+  
+  .drum-pad{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    color: white;
+    font-size: 48px;
+    background-color: black;
+      cursor:pointer;
+  
+    
+  }
+  
+  
+  .Q{
+    filter:
+      drop-shadow(2px 0px 4px #4444dd)
+      drop-shadow(-2px 0px 4px #4444dd)
+      drop-shadow(0px 2px 4px #4444dd)
+      drop-shadow(0px -2px 4px #4444dd)
+  }
+  
+  .qBorder{
+    border: 2px solid #4444dd;
+  }
+  .W{
+    filter:
+      drop-shadow(2px 0px 4px #F50000)
+      drop-shadow(-2px 0px 4px #F50000)
+      drop-shadow(0px 2px 4px #F50000)
+      drop-shadow(0px -2px 4px #F50000)
+  }
+  .wBorder{
+    border: 2px solid #F50000;
+  }
+  .E{
+    filter:
+      drop-shadow(2px 0px 4px #06FF01)
+      drop-shadow(-2px 0px 4px #06FF01)
+      drop-shadow(0px 2px 4px #06FF01)
+      drop-shadow(0px -2px 4px #06FF01)
+  }
+  .eBorder{
+    border: 2px solid #06FF01;
+  }
+  .A{
+    filter:
+      drop-shadow(2px 0px 4px #BF09FF)
+      drop-shadow(-2px 0px 4px #BF09FF)
+      drop-shadow(0px 2px 4px #BF09FF)
+      drop-shadow(0px -2px 4px #BF09FF)
+  }
+  .aBorder{
+    border: 2px solid #BF09FF;
+  }
+  .S{
+    filter:
+      drop-shadow(2px 0px 4px #FF7A00)
+      drop-shadow(-2px 0px 4px #FF7A00)
+      drop-shadow(0px 2px 4px #FF7A00)
+      drop-shadow(0px -2px 4px #FF7A00)
+  }
+  .sBorder{
+    border: 2px solid #FF7A00;
+  }
+  .D{
+    filter:
+      drop-shadow(2px 0px 4px #DBFF00)
+      drop-shadow(-2px 0px 4px #DBFF00)
+      drop-shadow(0px 2px 4px #DBFF00)
+      drop-shadow(0px -2px 4px #DBFF00)
+  }
+  .dBorder{
+    border: 2px solid #DBFF00;
+  }
+  .Z{
+    filter:
+      drop-shadow(2px 0px 4px #5FFFE2)
+      drop-shadow(-2px 0px 4px #5FFFE2)
+      drop-shadow(0px 2px 4px #5FFFE2)
+      drop-shadow(0px -2px 4px #5FFFE2)
+  }
+  .zBorder{
+    border: 2px solid #5FFFE2;
+  }
+  .X{
+    filter:
+      drop-shadow(2px 0px 4px #F21B9C)
+      drop-shadow(-2px 0px 4px #F21B9C)
+      drop-shadow(0px 2px 4px #F21B9C)
+      drop-shadow(0px -2px 4px #F21B9C)
+  }
+  .xBorder{
+    border: 2px solid #F21B9C;
+  }
+  .C{
+    filter:
+      drop-shadow(2px 0px 4px #744E14)
+      drop-shadow(-2px 0px 4px #744E14)
+      drop-shadow(0px 2px 4px #744E14)
+      drop-shadow(0px -2px 4px #744E14)
+  }
+  .cBorder{
+    border: 2px solid #744E14;
+  }
+  .drumpad-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  
+  }
+  
